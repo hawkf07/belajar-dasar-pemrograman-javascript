@@ -11,15 +11,14 @@
 
 let evenNumber = [];
 for (let i = 1; i < 100; i++) {
-  if (i%2 == 0) {
-    evenNumber.push(i)
-  } 
+  if (i % 2 == 0) {
+    evenNumber.push(i);
+  }
 }
 
 /**
  * Jangan hapus kode di bawah ini
  */
 
-console.log(evenNumber)
+console.log(evenNumber);
 module.exports = evenNumber;
-

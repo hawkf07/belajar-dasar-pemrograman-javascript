@@ -23,19 +23,18 @@
  *    Kemudian isi dengan nilai "favorite drink" dari properti object restaurant
  */
 
-
 // TODO
 
 let restaurant = {
-    name:"hello world",
-    city:"something",
-    favoriteDrink:" sds",
-    favoriteFood:"sdsa",
-    isVegan:false
-  }
+  name: "hello world",
+  city: "something",
+  favoriteDrink: " sds",
+  favoriteFood: "sdsa",
+  isVegan: false,
+};
 
-let name = restaurant.name
-let favoriteDrink = restaurant.favoriteDrink
+let name = restaurant.name;
+let favoriteDrink = restaurant.favoriteDrink;
 
 /**
  * Jangan hapus kode di bawah ini

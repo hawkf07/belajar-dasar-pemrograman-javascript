@@ -22,20 +22,18 @@ function scoreChecker(score) {
   let result;
 
   // TODO
-  if (score > 90 ) {
-  result = "Selamat! Anda mendapatkan nilai A."
-  }
-  else if (score > 79 && score < 90) result = "Anda mendapatkan nilai B."
-  else if (score > 69 && score < 80) result = "Anda mendapatkan nilai C."
-  else if (score >  59 && score < 70) result = "Anda mendapatkan nilai D."
-  else result = "Anda mendapatkan nilai E."
-
+  if (score > 90) {
+    result = "Selamat! Anda mendapatkan nilai A.";
+  } else if (score > 79 && score < 90) result = "Anda mendapatkan nilai B.";
+  else if (score > 69 && score < 80) result = "Anda mendapatkan nilai C.";
+  else if (score > 59 && score < 70) result = "Anda mendapatkan nilai D.";
+  else result = "Anda mendapatkan nilai E.";
 
   // Jangan hapus kode ini
   return result;
 }
 
-console.log(scoreChecker(80))
+console.log(scoreChecker(80));
 /**
  * Jangan hapus kode di bawah ini
  */
